@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, UserPlus, Stethoscope, Brain, Leaf, FileScan, ClipboardCheck, History, Sparkles, ShieldCheck, Users, ChevronRight } from 'lucide-react';
-import Heart3D from '../components/Heart3D';
+import Hospital3D from '../components/Hospital3D';
 import { Reveal } from '../components/ui';
 import { useMediStore } from '../store/useMediStore';
 
@@ -66,12 +66,12 @@ export default function Home() {
 
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7 }}
           className={`glass relative h-[380px] overflow-hidden rounded-3xl sm:h-[460px] ${dark ? 'glow-dark' : 'shadow-2xl shadow-teal-600/10'}`}>
-          <Heart3D dark={dark} />
+          <Hospital3D dark={dark} />
           <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/45 via-transparent to-transparent p-5 pt-14">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div>
-                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-rose-200">Live 3D • beating heart — drag to explore</p>
-                <p className="font-display text-lg font-bold text-white">Living heart • live case pulse</p>
+                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-teal-200">Live 3D • smart hospital — drag to explore</p>
+                <p className="font-display text-lg font-bold text-white">Your digital hospital, live in 3D</p>
               </div>
               <div className="flex gap-2">
                 <span className="rounded-xl bg-white/10 px-3 py-1.5 font-mono2 text-[11px] text-cyan-100 backdrop-blur">PAT-00084721</span>
