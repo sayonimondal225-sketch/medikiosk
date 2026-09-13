@@ -70,7 +70,7 @@ export default function Home() {
           <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/45 via-transparent to-transparent p-5 pt-14">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div>
-                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-teal-200">Live 3D • smart hospital — drag to explore</p>
+                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-teal-200">Live 3D • hospital campus — drag & hover</p>
                 <p className="font-display text-lg font-bold text-white">Your digital hospital, live in 3D</p>
               </div>
               <div className="flex gap-2">
